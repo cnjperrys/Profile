@@ -3,36 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link
+                href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+                rel="stylesheet">
+                <link rel="stylesheet" href="https://kit.fontawesome.com/85ecbacb3e.css" crossorigin="anonymous">
+            <link rel="stylesheet" href="src/portfolio.css"/>
+            <script src="https://kit.fontawesome.com/85ecbacb3e.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles.css"/>
-    <title>Profile</title>
+    <meta name="description" content="Courtney is a front-end engineer based in the United States.">
+    <title>Front-end developer-Courtney Perry </title>
 </head>
 <body>
     <div class="container">
-  
-    <header>
-        <img src="/src/logo-cjp-light.png">
-    </header>
-    <h1>Courtney J. Perry</h1>
-     
-      <section>
-        Project One
-      </section>
-      <section>
-        Project Two
-      </section>
-      <section>
-        Project Three
-      </section>
-      <section>
-        Project Four
-      </section>
-      <section class="Contact">
-        <h1>Let's Connect</h1>
-      </section>
-      <footer>
-        Coded by Courtney J. Perry open-sourced on <a href="#">Gifthub</a>
-      </footer>
-     </div>
-</body>
-</html>
+    <nav class="d-flex justify-content-between">
+        
+        <img src="images/logo-cjp-light.png" class="logo" alt="courtney logo"/>
+        <ul>
+            <li class="active">
+                <a href="/" title="Homepage">Home</a>
+                
+            </li>
+            <li>
+                <a href="/about.html" title="about Courtney">About</a>
+                
+            </li>
+            <li>
+                <a href="/work.html" title="Project work by Courtney ">Work</a>
+                
+            </li>
+            <li>
+                <a href="/contact.html" title="contact Courtney ">Contact</a>
+                
+            </li>
+        </ul>
+    </div>
+    </nav>
+    <div class="hero">
+        <p>
+            Hi, I am 
+        </p>
+        <h1>
+            Courtney J. Perry 
+        </h1>
+        <h2 class="mb-5">
+            front-end web developer located in the United States
+        </h2>
+         <div>
+             <a href="/contact.html" class="btn btn-branding">Contact Me</a>
+         </div>
+    </div>
+     <p class="text-center m-5">Featured Projects</p>
+    <div class="container">
+       
+        <div class="row mb-5">
+            <div class="col d-none d-lg-block">
+                <img src="images/travel-site.png" class="img-fluid rounded" alt="" />
+        
+            </div>
+            <div class="col">
+                <div class="project-description">
+                    <h2 class="mb-5">
+                        Travel Project
+                    </h2>
+                    <p class="mb-4 text-muted">
+                        This project was to create a landing page.
+                        
+                    </p>
+                    <a href="/work.html" class="btn btn-branding-outline">
+                        Learn more
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-5">
+               
+                <div class="col">
+                    <div class="project-description">
+                        <h2 class="mb-5">
+                            Weather Project
+                        </h2>
+                        <p class="mb-4 text-muted">
+                             This project wasn't just fun, it was also challenging. A continuation in practicing skills in
+                             HTML, CSS and JS but also implementing a search engine and API integration. This weather app 
+                             contains real time weather conditions, descriptions, wind speed and weather forecast. 
+
+                        </p>
+                        <a href="/work.html" class="btn btn-branding-outline">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+                 <div class="col d-none d-lg-block">
+                    <img src="images/weatherApp.png" class="img-fluid rounded" alt="" />
+            
+                </div>
+                <div class="row">
+                    <div class="col d-none d-lg-block">
+                        <img src="images/worldClock.png" class="img-fluid rounded" alt="" />
+                
+                    </div>
+                    <div class="col">
+                        <div class="project-description">
+                            <h2 class="mb-5">
+                                World Clock
+                            </h2>
+                            <p class="mb-4 text-muted">
+                                World Clock project
+                            
+                            </p>
+                            <a href="/work.html" class="btn btn-branding-outline">
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                        <div>
+                        <h3>
+                            Work Inquiry
+                        </h3>
+                        <h6>
+                            Lets work together
+                        </h6>
+                        </div>
+                        <div>
+                        <a href="/contact.html" class="btn btn-branding">Contact me</a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mb-5">
+                    <a href="mailto:cnjperrys@gmail.com" class="email-link">cnjperrys@gmail.com</a>
+                   </div>
+                    <div class="social-links d-flex justify-content-center mb-5">
+                         <a href="https://twitter.com/perry_cnjperry">
+                    <i class="fa-brands fa-twitter"></i>
+                         </a>
+                         <a href="https://www.linkedin.com/in/courtney-cox-perry-558505128/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                         </a>
+                         <a href="https://github.com/cnjperrys?tab=repositories" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                          </a>
+                    </div>
+                    <p class="text-center mt-4">
+                        This project was coded by Courtney Perry and it is
+                        <a href="https://github.com/cnjperrys/portfolio-project" target="_blank"> open-sourced</a>
+                    </p>
+                </footer>
+            </div>
+        </body>
+    </html>
