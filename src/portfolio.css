@@ -6,11 +6,11 @@ font-family: 'Poppins',
 sans-seri*/
 
 :root {
-    --branding-color: #8682ee;
+    --branding-color: #2b2a46;
     --heading-font-family: "playfair display",
         serif;
     --default-font-family: "poppins", sans-serif; 
-    --secondary-color: rgba(24, 13, 53, 0.664); 
+    --secondary-color: rgba(3, 2, 7, 0.151); 
 
 }
 
@@ -115,6 +115,15 @@ p {
     padding: 15px 30px; 
 
 }
+.btn-branding:hover {
+    background: white;
+    border: solid 1px var(--branding-color);
+    border-radius: 4px;
+    color: var(--branding-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px; 
+}
  .btn-branding-outline {
     border-radius: 4px;
     font-size: 18px;
@@ -122,6 +131,16 @@ p {
     padding: 15px 30px;
     color: var(--branding-color);
     border: 1px solid var(--branding-color);
+ }
+
+ .btn-branding-outline:hover {
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    color: white;
+    background-color: var(--branding-color);
+    
  }
 
  .project-description {
